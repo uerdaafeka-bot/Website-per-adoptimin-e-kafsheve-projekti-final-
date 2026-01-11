@@ -1,0 +1,57 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #f9eed8;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: 10px;
+  padding: 20px;
+}
+nav a{
+  text-decoration: none;  
+  color: #c56745;
+  padding: 10px;
+  border: 1px solid #c56745;
+  margin: 20px;
+  border-radius: 10px;
+  display: inline;
+}
+nav a:hover {
+  background-color: #c56745;
+  color: white;
+  cursor: pointer;
+}
+.logo{
+    height: 90px;
+    width: 90px;
+}
+.kafshet{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+span{
+    color: #c56745;
+}
+.image{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+hr{
+  border: none;
+  height: 1px;
+  background-color: #c56745;  
+}
+.sitekujdeseshpermacet,.sitekujdeseshperqente,.sitekujdeseshperlepujt{
+    border: 1px solid #c56745;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #c56745;
+    color: white;
+}
