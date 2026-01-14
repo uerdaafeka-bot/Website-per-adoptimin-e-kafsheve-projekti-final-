@@ -1,0 +1,72 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color:#f9eed8;
+}
+
+span{
+    color: #c56745;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: 10px;
+  padding: 20px;
+}
+nav a{
+  text-decoration: none;  
+  color: #c56745;
+  padding: 10px;
+  border: 1px solid #c56745;
+  margin: 20px;
+  border-radius: 10px;
+  display: inline;
+}
+nav a:hover {
+  background-color: #c56745;
+  color: white;
+  cursor: pointer;
+}
+.logo{
+  width: 90px;
+  height: 90px;
+}
+.dogimage{
+  width: 350px;
+  border-radius: 20px;
+  max-width: 100%;
+  box-shadow: 5px 5px 15px #c56745;
+  border: 1px solid #c56745;
+}
+.textandimage{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px;
+  gap: 50px; 
+  flex-wrap: wrap; 
+  position: relative;
+}
+.text{
+  max-width: 300px;
+}
+.text h1{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.text h2{
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.text p{
+  font-size: 16px;
+}
+@media (max-width: 768px){
+  .textandimage{
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+}
