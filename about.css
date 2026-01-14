@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#f9eed8;
+}
+.logo{
+    width: 90px;
+    height: 90px;
+}
+nav a{
+    text-decoration: none;
+    border: 1px solid #c56745;
+    background-color: #f9eed8;
+    color: #c56745 ;
+    border-radius: 10px;
+    padding: 10px;
+}
+nav a:hover {
+  background-color: #c56745;
+  color: white;
+  cursor: pointer;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.rrethfaqessime{
+    margin: 20px;
+}
+span{
+    color: #c56745;
+}
+.imazhet{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.qeni{
+    width: 350px;
+    border-radius: 20px;
+}
+.qeniparaadoptimit{
+    border: 1px solid #c56745;
+    border-radius: 10px;
+    padding: 50px;
+}
+.qenipasadoptimit{
+    border: 1px solid #c56745;
+    border-radius: 10px;
+    padding: 50px; 
+}
+hr{
+  border: none;
+  height: 1px;
+  background-color: #c56745;
+}
