@@ -1,0 +1,217 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#f9eed8;
+}
+.kafshet{
+    margin: 20px;
+}
+h1{
+    margin: 20px;
+}
+.logo{
+    width: 90px;
+    height: 90px;
+}
+nav a{
+    text-decoration: none;
+    border: 1px solid #c56745;
+    background-color: #f9eed8;
+    color: #c56745 ;
+    border-radius: 10px;
+    padding: 10px;
+}
+nav a:hover {
+  background-color: #c56745;
+  color: white;
+  cursor: pointer;
+}
+.spann{
+    color: #c56745;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: #c56745;
+}
+.image{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+span{
+    color:#f69459;
+}
+.macet{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.luna{
+    border: 1px solid #c56745;
+    border-radius: 10px;
+    padding: 20px;
+    background-color:#e7c79c ;
+}
+.profiliilunes{
+    color: white;
+    background-color:#c56745 ;
+    border: 1px solid #c56745;
+    border-radius: 10px;
+    border: 10px;
+    padding: 20px;
+}
+.leo{
+    border: 1px solid #c56745;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #e7c79c;
+}
+.profiliileos{
+    color: white;
+    background-color: #c56745;
+    border: 1px solid #c56745;
+    border-radius: 10px;
+    border: 10px;
+    padding: 20px;
+}
+.bella{
+    border: 1px solid #c56745;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #e7c79c;
+}
+.profiliibelles{
+    color: white;
+    background-color: #c56745;
+    border: 1px solid #c56745;
+    border-radius: 10px;
+    border: 10px;
+    padding: 20px;
+}
+button{
+    color: #c56745;
+    border: 1px solid #c56745;
+    background-color: #e7c79c;
+    padding: 10px;
+    border-radius: 20px;
+}
+button:hover{
+   background-color: #c56745;
+   color: white; 
+   cursor: pointer;
+}
+.imazhe{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+.qente{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.beni{
+    border: 1px solid #c56745;
+    border-radius: 10px;
+    padding: 20px;
+    background-color:#e7c79c ;
+}
+.profiliibenit{
+    color: white;
+    background-color: #c56745;
+    border: 1px solid #c56745;
+    border-radius: 10px;
+    border: 10px;
+    padding: 20px;
+}
+.lola{
+    border: 1px solid #c56745;
+    border-radius: 10px;
+    padding: 20px;
+    background-color:#e7c79c ;
+}
+.profiliiloles{
+    color: white;
+    background-color: #c56745;
+    border: 1px solid #c56745;
+    border-radius: 10px;
+    border: 10px;
+    padding: 20px;
+}
+.maksi{
+    border: 1px solid #c56745;
+    border-radius: 10px;
+    padding: 20px;
+    background-color:#e7c79c ;
+}
+.profiliimaksit{
+    color: white;
+    background-color: #c56745;
+    border: 1px solid #c56745;
+    border-radius: 10px;
+    border: 10px;
+    padding: 20px;
+}
+.imazh{
+    width: 100pxpx;
+    height: 200px;
+    border-radius: 10px;
+}
+.lepujte{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.koko{
+    border: 1px solid #c56745;
+    border-radius: 10px;
+    padding: 20px;
+    background-color:#e7c79c ;
+}
+.profiliikokos{
+    color: white;
+    background-color: #c56745;
+    border: 1px solid #c56745;
+    border-radius: 10px;
+    border: 10px;
+    padding: 20px;
+}
+.lula{
+    border: 1px solid #c56745;
+    border-radius: 10px;
+    padding: 20px;
+    background-color:#e7c79c ;
+}
+.profiliilules{
+    color: white;
+    background-color: #c56745;
+    border: 1px solid #c56745;
+    border-radius: 10px;
+    border: 10px;
+    padding: 20px;
+}
+.milo{
+    border: 1px solid #c56745;
+    border-radius: 10px;
+    padding: 20px;
+    background-color:#e7c79c ;
+}
+.profiliimilos{
+    color: white;
+    background-color: #c56745;
+    border: 1px solid #c56745;
+    border-radius: 10px;
+    border: 10px;
+    padding: 20px;
+}
+.kafshett{
+    color: #c56745;
+    text-decoration: underline;
+}
